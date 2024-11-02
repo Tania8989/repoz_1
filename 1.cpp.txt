@@ -1,0 +1,17 @@
+#include <iostream>
+using namespace std;
+int main()
+{
+	//y=8*(x+t)
+	int x = 2, t = 3;
+	double y;
+	/*cout << "Enter x, t:";
+	cin >> x >> t;
+	y=8*(x+t);
+	cout << "Y=" << y << endl;
+	*/
+	printf("Enter x,t:");
+	scanf_s("%d%d", &x, &t);
+	y = 8 * (x + t);
+	printf("Y= %1f", y);
+	}
