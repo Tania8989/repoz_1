@@ -1,3 +1,4 @@
+// solve the equation
 #include <iostream>
 using namespace std;
 int main()
