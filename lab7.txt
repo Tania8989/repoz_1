@@ -1,3 +1,4 @@
+// using cycle for
 #include <iostream>
 #include <iomanip>
 #define _USE_MATH_DEFINES
