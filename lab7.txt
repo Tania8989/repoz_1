@@ -11,6 +11,7 @@ int main()
     cout << "Введіть x1, x2, h \n";
     cin >> x1 >> x2 >> h;
     x = x1;
+// description cycle WHILE
     while(x<=x2+h/2){
         y = sin(abs(x)) + pow(cos(x),2);
         cout << setw(10) << x << setw(15) << y << endl;
