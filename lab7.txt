@@ -8,12 +8,12 @@ int main()
 {
     //y=sin*|x|+cos^2*x       x[x1; x2]        h
     double y, x, x1, x2, h;
-    cout << "Введіть x1, x2, h \n";
-    cin >> x1 >> x2 >> h;
+    cout << "Enter x1, x2, h \n";
+    cin >> x1 >> x2 >> h;           //enter elements
     x = x1;
 // description cycle WHILE
     while(x<=x2+h/2){
-        y = sin(abs(x)) + pow(cos(x),2);
+        y = sin(abs(x)) + pow(cos(x),2);       //math func
         cout << setw(10) << x << setw(15) << y << endl;
         x+=h;
     }
