@@ -5,11 +5,11 @@ using namespace std;
 int main()
 {
     int a[10];
-    cout << "Введіть елементи масиву: " << endl;
+    cout << "Введіть елементи масиву: " << endl; //виведення 
     for(int i = 0; i < 10; i++)
     {
         cout << "a[" << i +1 << "]";
-        cin >> a[i];
+        cin >> a[i]; //введення елементів
     }
     cout << "\n Масив: \n";
     for(int i = 0; i < 10; i++)
@@ -18,12 +18,12 @@ int main()
     int count = 0;
     for(int i = 0; i < 10; i++)
     if(a[i] > 0 && a[i] % 2 == 0){
-        prod *= a[i];
+        prod *= a[i]; //розрахунки
         count++;
     }
     if(count > 0){
         double geometricMean = pow(prod, 1.0 / count);
-        cout << "Середнє геометричне всіх парних елементів масиву дорівнює: " << geometricMean << endl;
+        cout << "Результат математичних розрахунків: " << geometricMean << endl; //результат
     }
     else{
         cout << "Парні елементи відсутні у масиві" << endl;
