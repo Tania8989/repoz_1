@@ -1,0 +1,15 @@
+#include <iostream>
+#include <iomanip>
+using namespace std;
+int main()
+{
+	cout << showpos << setw(8) << right << 4.0 << noshowpos << endl;
+	cout << fixed << setprecision(2) << setw(13) << internal << -67.09124 << endl;
+	cout << showpos << setw(8) << right << 235 << noshowpos << endl;
+	cout << hex << 2209 << endl;
+	cout << setw(8) << left << -121.00 << endl;
+	cout << fixed << setprecision(0) << showpos << 1.0 << 24.0 << noshowpos << endl;
+
+}
+
+
