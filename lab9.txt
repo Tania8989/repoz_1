@@ -1,6 +1,5 @@
 // using cycle for
 #include <iostream>
-#include <iomanip>
 #define _USE_MATH_DEFINES
 #include "math.h"
 using namespace std;
@@ -11,10 +10,4 @@ int main()
     cout << "Enter x1, x2, h \n";
     cin >> x1 >> x2 >> h;           //enter elements
     x = x1;
-// description cycle WHILE
-    while(x<=x2+h/2){
-        y = sin(abs(x)) + pow(cos(x),2);       //math func
-        cout << setw(10) << x << setw(15) << y << endl;
-        x+=h;
-    }
-}
+
