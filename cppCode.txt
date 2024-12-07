@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int a[10];
+    int a[10];     //масив
     cout << "Введіть елементи масиву: " << endl; //виведення 
     for(int i = 0; i < 10; i++)
     {
@@ -13,12 +13,12 @@ int main()
     }
     cout << "\n Масив: \n";
     for(int i = 0; i < 10; i++)
-    cout << setw(5) << a[i] << endl;
+    cout << setw(5) << a[i] << endl;    //виведення масиву
     double prod = 1.0;
     int count = 0;
     for(int i = 0; i < 10; i++)
     if(a[i] > 0 && a[i] % 2 == 0){
-        prod *= a[i]; //розрахунки
+        prod *= a[i]; //розрахунок середнього геометричного
         count++;
     }
     if(count > 0){
