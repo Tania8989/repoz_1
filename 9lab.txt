@@ -3,6 +3,7 @@
 using namespace std;
 int main()
 {
+        cout << "Realization new operators" << endl;
 	cout << showpos << setw(8) << right << 4.0 << noshowpos << endl;
 	cout << fixed << setprecision(2) << setw(13) << internal << -67.09124 << endl;
 	cout << showpos << setw(8) << right << 235 << noshowpos << endl;
