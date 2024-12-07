@@ -4,10 +4,11 @@ using namespace std;
 int main()
 {
 	//y=8*(x+t)
-	int x = 2, t = 3;
+	int x = 2, t = 3; //ініціаліація змінних
 	double y;
-	cout << "Enter x, t:";
-	cin >> x >> t;
-	y=8*(x+t);
-	cout << "Y=" << y << endl;
+	cout << "Enter x, t:";  //виведення 
+	cin >> x >> t;   //введення даних користувачем
+	y=8*(x+t); //розрахунок
+	cout << "Y=" << y << endl; //виведення результату, кінець програми
+        return 0;
 }
