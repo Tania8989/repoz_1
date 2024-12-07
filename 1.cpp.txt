@@ -11,8 +11,8 @@ int main()
 	y=8*(x+t);
 	cout << "Y=" << y << endl;
 	*/
-	printf("Enter x,t:");
-	scanf_s("%d%d", &x, &t);
-	y = 8 * (x + t);
+	printf("Enter x,t:");   //realize function printf
+	scanf_s("%d%d", &x, &t);    //realize function scanf_s
+	y = 8 * (x + t); 
 	printf("Y= %1f", y);
 	}
