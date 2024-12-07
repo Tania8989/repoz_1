@@ -7,6 +7,9 @@ int main()
 	cout << fixed << setprecision(2) << setw(13) << internal << -67.09124 << endl;
 	cout << showpos << setw(8) << right << 235 << noshowpos << endl;
 	cout << hex << 2209 << endl;
+        cout << hex << 2209 << endl;
+        cout << hex << 2209 << endl;
+        cout << hex << 2209 << endl;
 }
 
 
